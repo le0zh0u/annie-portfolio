@@ -12,7 +12,7 @@
       </el-col>
       <el-col :span="6">
         <el-card :body-style="{ padding: '0px' }">
-          <router-link to="/sprd">
+          <router-link to="/spdr">
             <div class="img-box">
               <img src="http://oiuhevdur.bkt.clouddn.com/2spdr.jpg" class="image">
             </div>
