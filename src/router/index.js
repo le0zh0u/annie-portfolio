@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '../components/Hello'
+import CarAntiTheft from '../components/CarAntiTheft.Vue'
 // import CarAntiTheft from '../components/CarAntiTheft'
 // import House from '../components/House'
 // import LastPage from '../components/LastPage'
@@ -16,13 +17,12 @@ export default new Router({
       path: '/',
       name: 'Hello',
       component: Hello
+    },
+    {
+      path: '/car-anti-theft',
+      name: 'carAntiTheft',
+      component: CarAntiTheft
     }
-    // ,
-    // {
-    //   path: '/car-anti-theft',
-    //   name: 'carAntiTheft',
-    //   component: CarAntiTheft
-    // },
     // {
     //   path: '/last-page',
     //   name: 'lastPage',
