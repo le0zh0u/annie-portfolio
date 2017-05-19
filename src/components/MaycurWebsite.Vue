@@ -1,11 +1,11 @@
 <template>
   <div>
-    <img src="http://oiuhevdur.bkt.clouddn.com/s-house.jpg" class="image">
+    <img src="http://oiuhevdur.bkt.clouddn.com/maycur.jpg" class="image">
   </div>
 </template>
 <script>
   export default {
-    name: 's-house-page',
+    name: 'maycur-page',
     data () {
       return {}
     }

@@ -7,6 +7,7 @@ import LastPage from '../components/LastPage'
 import ProjectManage from '../components/ProjectManage'
 import RunDate from '../components/RunDate'
 import SPDR from '../components/SPDR'
+import MaycurWebsite from '../components/MaycurWebsite'
 
 Vue.use(Router)
 
@@ -46,6 +47,11 @@ export default new Router({
       path: '/s-house',
       name: 'house',
       component: House
+    },
+    {
+      path: '/maycur-website',
+      name: 'maycurWebsite',
+      component: MaycurWebsite
     }
   ]
 })

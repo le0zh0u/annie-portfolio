@@ -1,32 +1,32 @@
 <template>
   <div class="hello">
     <div class="logo-box">
-      <img src="http://oiuhevdur.bkt.clouddn.com/logo-zjj.png" class="logo">
+      <img src="http://oiuhevdur.bkt.clouddn.com/logo2-zjj.png" class="logo">
     </div>
     <el-row :gutter="20" class="mt-20">
       <el-col :span="8">
-        <el-card :body-style="{ padding: '0px' }">
+        <el-card :body-style="{ padding: '0px' }" class="card-box">
           <router-link to="/s-house">
-            <div class="img-box">
+            <div>
               <img src="http://oiuhevdur.bkt.clouddn.com/house-thum.jpg" class="image">
             </div>
           </router-link>
         </el-card>
       </el-col>
       <el-col :span="8">
-        <el-card :body-style="{ padding: '0px' }">
+        <el-card :body-style="{ padding: '0px' }" class="card-box">
           <router-link to="/spdr">
-            <div class="img-box">
+            <div>
               <img src="http://oiuhevdur.bkt.clouddn.com/spdr-thum.jpg" class="image">
             </div>
           </router-link>
         </el-card>
       </el-col>
       <el-col :span="8">
-        <el-card :body-style="{ padding: '0px' }">
+        <el-card :body-style="{ padding: '0px' }" class="card-box">
           <router-link to="/project-manage">
-            <div class="img-box">
-              <img src="http://oiuhevdur.bkt.clouddn.com/project-manage-thum.jpg" class="image">
+            <div>
+              <img src="http://oiuhevdur.bkt.clouddn.com/project-manage-thum1.jpg" class="image">
             </div>
           </router-link>
         </el-card>
@@ -34,18 +34,27 @@
     </el-row>
     <el-row :gutter="20" class="mt-20">
       <el-col :span="8">
-        <el-card :body-style="{ padding: '0px' }">
+        <el-card :body-style="{ padding: '0px' }" class="card-box">
           <router-link to="/run-date">
-            <div class="img-box">
+            <div>
               <img src="http://oiuhevdur.bkt.clouddn.com/run-date-thum.jpg" class="image">
             </div>
           </router-link>
         </el-card>
       </el-col>
       <el-col :span="8">
-        <el-card :body-style="{ padding: '0px' }">
+        <el-card :body-style="{ padding: '0px' }" class="card-box">
+          <router-link to="/maycur-website">
+            <div>
+              <img src="http://oiuhevdur.bkt.clouddn.com/maycur-thum.jpg" class="image">
+            </div>
+          </router-link>
+        </el-card>
+      </el-col>
+      <el-col :span="8">
+        <el-card :body-style="{ padding: '0px' }" class="card-box">
           <router-link to="/last-page">
-            <div class="img-box">
+            <div>
               <img src="http://oiuhevdur.bkt.clouddn.com/last-page-zjj.jpg" class="image">
             </div>
           </router-link>
@@ -84,8 +93,12 @@
     padding: 20px 0px;
   }
 
-  .img-box {
-    height: 180px
+  .card-box.el-card {
+    border: 0px;
+  }
+
+  .card-box.el-card:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .48);
   }
 
   .image {
