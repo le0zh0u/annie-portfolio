@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="http://oiuhevdur.bkt.clouddn.com/3%E8%BD%A6%E9%98%B2%E7%9B%97new.jpg" class="image">
+    <img src="http://oiuhevdur.bkt.clouddn.com/3car-anti-theft-new.jpg" class="image">
   </div>
 </template>
 
