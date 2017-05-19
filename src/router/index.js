@@ -38,7 +38,7 @@ export default new Router({
       component: RunDate
     },
     {
-      path: '/SPDR',
+      path: '/spdr',
       name: 'SPDR',
       component: SPDR
     },
