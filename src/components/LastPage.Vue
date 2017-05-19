@@ -5,7 +5,10 @@
 </template>
 <script>
   export default {
-    name: 'last-page'
+    name: 'last-page-page',
+    data () {
+      return {}
+    }
   }
 </script>
 <style>

@@ -5,7 +5,10 @@
 </template>
 <script>
   export default {
-    name: 's-house'
+    name: 's-house-page',
+    data () {
+      return {}
+    }
   }
 </script>
 <style>

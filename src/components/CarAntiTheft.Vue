@@ -6,7 +6,10 @@
 
 <script>
   export default {
-    name: 'car-anti-theft'
+    name: 'car-anti-theft-page',
+    data () {
+      return {}
+    }
   }
 </script>
 

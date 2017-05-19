@@ -5,7 +5,10 @@
 </template>
 <script>
   export default {
-    name: 'run-date'
+    name: 'run-date-page',
+    data () {
+      return {}
+    }
   }
 </script>
 <style>

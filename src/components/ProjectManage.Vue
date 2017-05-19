@@ -5,7 +5,10 @@
 </template>
 <script>
   export default {
-    name: 'project-manage'
+    name: 'project-manage-page',
+    data () {
+      return {}
+    }
   }
 </script>
 <style>

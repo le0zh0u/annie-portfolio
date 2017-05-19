@@ -5,7 +5,10 @@
 </template>
 <script>
   export default {
-    name: 'spdr'
+    name: 'spdr-page',
+    data () {
+      return {}
+    }
   }
 </script>
 <style>
