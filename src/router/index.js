@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '../components/Hello'
-import CarAntiTheft from '../components/CarAntiTheft.Vue'
+import CarAntiTheft from '../components/CarAntiTheft'
 // import CarAntiTheft from '../components/CarAntiTheft'
 // import House from '../components/House'
 // import LastPage from '../components/LastPage'
