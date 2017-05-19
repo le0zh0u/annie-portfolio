@@ -3,7 +3,11 @@
     <img src="http://oiuhevdur.bkt.clouddn.com/5run-date-new.jpg" class="image">
   </div>
 </template>
-
+<script>
+  export default {
+    name: 'run-date'
+  }
+</script>
 <style>
   body{
     margin:0

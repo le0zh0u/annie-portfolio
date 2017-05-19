@@ -3,7 +3,11 @@
     <img src="http://oiuhevdur.bkt.clouddn.com/last-page-zjj.jpg" class="image">
   </div>
 </template>
-
+<script>
+  export default {
+    name: 'last-page'
+  }
+</script>
 <style>
   body{
     margin:0

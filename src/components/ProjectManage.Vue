@@ -3,7 +3,11 @@
     <img src="http://oiuhevdur.bkt.clouddn.com/4project-manage-new.jpg" class="image">
   </div>
 </template>
-
+<script>
+  export default {
+    name: 'project-manage'
+  }
+</script>
 <style>
   body{
     margin:0

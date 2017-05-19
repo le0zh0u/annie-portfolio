@@ -3,7 +3,11 @@
     <img src="http://oiuhevdur.bkt.clouddn.com/2spdr.jpg" class="image">
   </div>
 </template>
-
+<script>
+  export default {
+    name: 'spdr'
+  }
+</script>
 <style>
   body{
     margin:0

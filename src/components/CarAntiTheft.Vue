@@ -4,6 +4,12 @@
   </div>
 </template>
 
+<script>
+  export default {
+    name: 'car-anti-theft'
+  }
+</script>
+
 <style>
   body{
     margin:0
