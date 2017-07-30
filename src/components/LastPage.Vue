@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="jianli-box">
     <img src="http://oiuhevdur.bkt.clouddn.com/jianli2.png" class="image">
   </div>
 </template>
@@ -17,6 +17,9 @@
   }
   #app{
     margin-top:0
+  }
+  .jianli-box{
+    padding: 0px 20%;
   }
   .image {
     width: 100%;
