@@ -24,5 +24,6 @@
   .image {
     width: 100%;
     display: block;
+    border: 1px solid #000;
   }
 </style>
