@@ -19,7 +19,7 @@
     margin-top:0
   }
   .jianli-box{
-    padding: 0px 20%;
+    padding: 0px 25%;
   }
   .image {
     width: 100%;

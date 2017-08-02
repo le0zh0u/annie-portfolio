@@ -8,6 +8,9 @@ import ProjectManage from '../components/ProjectManage'
 import RunDate from '../components/RunDate'
 import SPDR from '../components/SPDR'
 import MaycurWebsite from '../components/MaycurWebsite'
+import BannerGuide from '../components/BannerGuide'
+import HandDrawing from '../components/HandDrawing'
+import RingClean from '../components/RingClean'
 
 Vue.use(Router)
 
@@ -52,6 +55,22 @@ export default new Router({
       path: '/maycur-website',
       name: 'maycurWebsite',
       component: MaycurWebsite
+    },
+    {
+      path: '/banner-guide',
+      name: 'bannerGuide',
+      component: BannerGuide
+    },
+    {
+      path: '/hand-drawing',
+      name: 'handDrawing',
+      component: HandDrawing
+    },
+    {
+      path: '/ring-clean',
+      name: 'ringClean',
+      component: RingClean
     }
+
   ]
 })
