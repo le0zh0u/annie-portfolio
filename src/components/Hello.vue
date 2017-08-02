@@ -14,7 +14,9 @@
             </div>
           </router-link>
           <div class="card-content">
-            <span class="card-name">{{card.name}}</span>
+            <router-link :to="card.linkTo">
+              <span class="card-name">{{card.name}}</span>
+            </router-link>
             <div class="secondary">
               <span class="card-category">{{card.category}}</span>
             </div>
@@ -133,7 +135,11 @@ export default {
   padding: 20px;
   text-align: left;
 }
-
+a{
+  text-align: center;
+  color: #2c3e50;
+  text-decoration: none;
+}
 .card-name {
   font-family: PingFangSC-Regular;
   font-size: 16px;
