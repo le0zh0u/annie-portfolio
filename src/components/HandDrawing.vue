@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="http://oiuhevdur.bkt.clouddn.com/portfolio/detail/6.png" class="image">
+    <img src="http://oiuhevdur.bkt.clouddn.com/portfolio/detail/6-1.png" class="image">
   </div>
 </template>
 <script>
