@@ -1,7 +1,7 @@
 <template>
   <div>
-    <img src="http://oiuhevdur.bkt.clouddn.com/portfolio/detail/run-1.png" class="image">
-    <img src="http://oiuhevdur.bkt.clouddn.com/portfolio/detail/run-2.png" class="image">
+    <img src="http://img.leozhou.me/portfolio/detail/run-1.png" class="image">
+    <img src="http://img.leozhou.me/portfolio/detail/run-2.png" class="image">
 
   </div>
 </template>

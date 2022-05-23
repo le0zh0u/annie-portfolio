@@ -1,7 +1,7 @@
 <template>
 <div class="hello">
   <div class="header">
-    <img src="http://oiuhevdur.bkt.clouddn.com/zjj-logo.png" class="logo">
+    <img src="http://img.leozhou.me/zjj-logo.png" class="logo">
     <div><span>越努力，越幸运</span></div>
   </div>
   <div class="content">
@@ -27,9 +27,9 @@
   </div>
   <div class="footer">
     <div>
-      <img src="http://oiuhevdur.bkt.clouddn.com/zjj-photo.png" class="photo">
+      <img src="http://img.leozhou.me/zjj-photo.png" class="photo">
       <router-link to="/last-page">
-        <img src="http://oiuhevdur.bkt.clouddn.com/portfolio-icon.png" class="portfolio">
+        <img src="http://img.leozhou.me/portfolio-icon.png" class="portfolio">
       </router-link>
     </div>
     <div>
@@ -51,43 +51,43 @@ export default {
       screenWidth: document.body.clientWidth,
       cardList: [{
         id: 1,
-        img: 'http://oiuhevdur.bkt.clouddn.com//home1.png',
+        img: 'http://img.leozhou.me//home1.png',
         name: '运动社交类——约跑',
         linkTo: '/run-date',
         category: 'APP设计'
       }, {
         id: 2,
-        img: 'http://oiuhevdur.bkt.clouddn.com//home2.png',
+        img: 'http://img.leozhou.me//home2.png',
         name: '保镖云防盗V2.0.0',
         linkTo: '/car-anti-theft',
         category: 'UI设计'
       }, {
         id: 3,
-        img: 'http://oiuhevdur.bkt.clouddn.com//home3.png',
+        img: 'http://img.leozhou.me//home3.png',
         name: 'Design项目管理平台',
         linkTo: '/project-manage',
         category: 'APP设计'
       }, {
         id: 4,
-        img: 'http://oiuhevdur.bkt.clouddn.com//home4.png',
+        img: 'http://img.leozhou.me//home4.png',
         name: '每刻官网V1.0',
         linkTo: '/maycur-website',
         category: 'WEB设计'
       }, {
         id: 5,
-        img: 'http://oiuhevdur.bkt.clouddn.com//home5.png',
+        img: 'http://img.leozhou.me//home5.png',
         name: '线上BANNER规范',
         linkTo: '/banner-guide',
         category: 'banner规范设计'
       }, {
         id: 6,
-        img: 'http://oiuhevdur.bkt.clouddn.com//home6.png',
+        img: 'http://img.leozhou.me//home6.png',
         name: '视觉绘制',
         linkTo: '/hand-drawing',
         category: '插画'
       }, {
         id: 7,
-        img: 'http://oiuhevdur.bkt.clouddn.com//home7.png',
+        img: 'http://img.leozhou.me//home7.png',
         name: 'Ring Clean',
         linkTo: '/ring-clean',
         category: '概念设计'

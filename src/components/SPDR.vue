@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="http://oiuhevdur.bkt.clouddn.com/spdr-responsive-design.jpg" class="image">
+    <img src="http://img.leozhou.me/spdr-responsive-design.jpg" class="image">
   </div>
 </template>
 <script>
