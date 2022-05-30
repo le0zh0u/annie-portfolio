@@ -1,6 +1,6 @@
 <template>
   <div class="jianli-box">
-    <img src="http://img.leozhou.me/jianli2.png" class="image">
+    <img src="http://img.leozhou.me/picGo/20220524170134.png" class="image">
   </div>
 </template>
 <script>

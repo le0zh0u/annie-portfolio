@@ -2,7 +2,7 @@
 <div class="hello">
   <div class="header">
     <img src="http://img.leozhou.me/zjj-logo.png" class="logo">
-    <div><span>越努力，越幸运</span></div>
+    <div><span>朱菁菁 - 高级交互设计师</span></div>
   </div>
   <div class="content">
     <el-row :gutter="40" v-for="(cards, i) in resetCardList(cardList)" :key="i" class="mt-30">
